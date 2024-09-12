@@ -1,0 +1,243 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set global font and background color */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation bar */
+header {
+    background-color: #1d3557;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    color: #e63946;
+}
+
+/* Sections */
+section {
+    padding: 4rem 0;
+    text-align: center;
+}
+
+/* About Section */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px solid #a8dadc; /* Divider line */
+    gap: 2rem; /* Reduces space between the image and text */
+}
+
+.about-text {
+    flex: 2; /* More space for text */
+    padding-right: 2rem;
+}
+
+.about-image {
+    flex: 1; /* Allocates 1/3rd of space to the image */
+    text-align: center; /* Center the image */
+}
+
+.about-image img {
+    max-width: 100%; /* Adjust the image to take the full allocated space */
+    height: auto;
+    border-radius: 20px; /* Rounded edges for a polished look */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds depth */
+}
+
+/* Section headers */
+h2 {
+    font-size: 2.5rem; /* Increase font size for headers */
+    color: #1d3557;
+    margin-bottom: 1rem;
+}
+
+/* Educational Background */
+#education p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+#education ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#education ul li {
+    background-color: #a8dadc;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 5px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+#education ul li i {
+    margin-right: 10px;
+}
+
+/* Programming Languages Section */
+#programming-languages {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 2rem 0;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin: 2rem 0;
+    text-align: center;
+}
+
+#programming-languages h2 {
+    font-size: 2.5rem; /* Increased font size for section header */
+    color: #1d3557; /* Matching header color */
+    margin-bottom: 1rem;
+}
+
+#programming-languages ul {
+    list-style: none;
+    padding: 0;
+}
+
+#programming-languages ul li {
+    background-color: #f1faee; /* Light background for list items */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for list items */
+    font-size: 1.1rem;
+    color: #457b9d; /* Matching text color */
+    text-align: left;
+    display: inline-block;
+    width: calc(100% - 20px); /* Ensure it fits within container */
+}
+
+#programming-languages p {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+/* Interests Section */
+#interests ul {
+    list-style: none;
+    padding: 0;
+}
+
+#interests ul li {
+    background-color: #f1faee;
+    margin: 10px 0;
+    padding: 10px;
+    border-left: 5px solid #e63946;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+/* Projects Section */
+#projects ul {
+    list-style: none;
+}
+
+#projects ul li {
+    background-color: #f1faee;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#projects ul li a {
+    color: #457b9d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#projects ul li i {
+    margin-left: 5px;
+    color: #457b9d;
+}
+
+#projects ul li:hover {
+    background-color: #a8dadc;
+}
+
+/* Contact Form */
+form {
+    background-color: #e9ecef;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background-color: #1d3557;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #e63946;
+}
+
+/* Footer */
+footer {
+    padding: 2rem 0;
+    background-color: #1d3557;
+    color: #fff;
+    text-align: center;
+}
+
+footer h2 {
+    margin-bottom: 1rem;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #e63946;
+}
